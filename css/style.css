@@ -28,9 +28,8 @@ body {
 }
 
 .top-nav {
-  position: relative;
   width: 100vw;
-  background-color: #f05023;
+  background-color: #140899;
   color: #fff;
   font-size: 1.5rem;
 }
@@ -51,6 +50,16 @@ body {
           justify-content: space-evenly;
   padding: 5px 25%;
   list-style: none;
+}
+
+.logo {
+  font-size: 3rem;
+}
+
+.logo span {
+  color: #140899;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .bottom-nav {
@@ -77,6 +86,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #140899;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .bottom-nav .user-cart .fas {
@@ -106,7 +118,7 @@ body {
           flex-direction: row;
   height: 40px;
   padding: 0 15%;
-  background-color: #132651;
+  background-color: #001f0a;
   color: white;
   list-style: none;
   font-size: 1.6rem;
@@ -124,7 +136,7 @@ body {
 }
 
 .ul-menu ul li:hover {
-  background-color: #f05023;
+  background-color: #140899;
 }
 
 .main {
@@ -151,7 +163,7 @@ body {
   display: block;
   width: 50px;
   height: 2px;
-  background: #fc571d;
+  background: #140899;
 }
 
 .main .faq-item {
@@ -173,6 +185,7 @@ body {
   -webkit-box-shadow: 0 0 2px black;
           box-shadow: 0 0 2px black;
   padding: 15px;
+  margin-bottom: 20px;
   cursor: pointer;
 }
 
@@ -191,7 +204,7 @@ body {
   display: block;
   width: 50px;
   height: 2px;
-  background: #fc571d;
+  background: #140899;
 }
 
 .main .faq-content {
@@ -206,5 +219,26 @@ body {
   position: relative;
   opacity: 1;
   visibility: visible;
+}
+
+@media (max-width: 885px) {
+  .top-nav {
+    width: 100%;
+  }
+  .top-nav .top-nav-ul li {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .top-nav {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .top-nav {
+    font-size: 1.1rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
